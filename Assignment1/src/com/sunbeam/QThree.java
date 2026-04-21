@@ -1,5 +1,6 @@
-package com.sunbeam.LSearch;
+package com.sunbeam;
 
+//3. Create array of employees and search employee by empid ,name
 import java.util.Scanner;
 
 class Employee{
@@ -23,23 +24,13 @@ public class QThree {
 			
 			
 			
-	// 3. Create array of employees and search employee by empid,name
-//			
-//			int searchId =1;
-//			String searchName="Balaji";
 	
-//			Employee[] emp = new Employee[4];
-//			
-//			emp[0] = new Employee(1, "Aarush");
-//			emp[1] = new Employee(2, "Balaji");
-//			emp[2] = new Employee(3,"Sahil");
-//			emp[3] = new Employee(4, "Prajwal");
 			
 			Employee[] emp = {
-					new Employee(1, "Aarush"),
-					new Employee(2, "Balaji"),
-					new Employee(3, "Sahil"),
-					new Employee(4, "Prajwal")
+					new Employee(1, "Ayush"),
+					new Employee(2, "Bhavesh"),
+					new Employee(3, "Om"),
+					new Employee(4, "Raju")
 			};
 			
 			

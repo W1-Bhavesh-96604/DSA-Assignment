@@ -1,11 +1,10 @@
-package com.sunbeam.LSearch;
+package com.sunbeam;
 
+
+//Write a program to print no of comparisons done to search a key in linear search
 public class Qtwo {
-	
-	//  Write a program to print no of comparisons done to search a key in
-	// linear search
 
-	public static void main(String args[] ){
+public static void main(String args[] ){
 		
 		int key=3;
 		int index=0;
@@ -27,5 +26,4 @@ public class Qtwo {
 			System.out.println("No of Comparisons done is  : " + count);
 			
 		}
-
-	}
+}
